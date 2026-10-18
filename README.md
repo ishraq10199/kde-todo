@@ -1,6 +1,37 @@
 # kde-todo
 
+[![License: MIT][badge-license]][license]
+[![Python 3.12+][badge-python]][python]
+[![KDE Plasma 6][badge-plasma]][plasma]
+[![Fedora][badge-fedora]][fedora]
+[![Qt 6 / PySide6][badge-qt]][pyside]
+[![Kirigami][badge-kirigami]][kirigami]
+
 Time-blocked daily todos for KDE Plasma, made for personal use only.
+
+<!-- markdownlint-disable MD033 -->
+
+<p align="center">
+  <img src="bubble_gifs/Mochi/working_4_i-ll-guard-the-snacks-while-you-work.gif"
+    alt="Mochi, the default mascot, keeping you company while you work">
+  <br>
+  Mochi cheers you on while you work.
+</p>
+
+<!-- markdownlint-enable MD033 -->
+
+[badge-license]: https://img.shields.io/badge/license-MIT-blue
+[badge-python]: https://img.shields.io/badge/python-3.12%2B-3776AB?logo=python&logoColor=white
+[badge-plasma]: https://img.shields.io/badge/KDE%20Plasma-6-1D99F3?logo=kde&logoColor=white
+[badge-fedora]: https://img.shields.io/badge/Fedora-supported-51A2DA?logo=fedora&logoColor=white
+[badge-qt]: https://img.shields.io/badge/Qt%206-PySide6-41CD52?logo=qt&logoColor=white
+[badge-kirigami]: https://img.shields.io/badge/UI-Kirigami-1D99F3?logo=kde&logoColor=white
+[license]: LICENSE
+[python]: https://www.python.org
+[plasma]: https://kde.org/plasma-desktop
+[fedora]: https://fedoraproject.org/kde
+[pyside]: https://doc.qt.io/qtforpython-6
+[kirigami]: https://develop.kde.org/frameworks/kirigami
 
 ## Setup (fresh Fedora KDE)
 
