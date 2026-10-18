@@ -1,0 +1,25 @@
+[Global]
+IconName=view-task
+Comment=kde-todo
+DesktopEntry=org.kde.kdetodo
+
+[Event/taskStarted]
+Name=Item started
+Comment=A started item's time block begins
+Action=Popup
+
+[Event/halfway]
+Name=Halfway
+Comment=Half of the running item's time block has passed
+Action=Popup
+
+[Event/timeUp]
+Name=Time's up
+Comment=The running item's time block has ended
+Action=Popup|Sound
+Sound=bell-window-system
+
+[Event/rollover]
+Name=Day rollover
+Comment=Unfinished items were carried over to the new day
+Action=Popup

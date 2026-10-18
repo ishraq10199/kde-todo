@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kde-todo"
+version = "0.1.0"
+description = "Time-blocked daily todos for KDE Plasma"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE", "kde_todo/data/fonts/LICENSE"]
+# All dependencies come from Fedora packages (see README), never pip.
+
+[project.scripts]
+kde-todo = "kde_todo.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["kde_todo*"]

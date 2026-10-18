@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Packaging (pyproject.toml builds)
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Scratch folder for files to throw away (temp stuff)
+to_delete/

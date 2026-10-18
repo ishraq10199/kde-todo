@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=kde-todo
+GenericName=Time-blocked todos
+Comment=Plan your day in time blocks
+Exec=kde-todo gui
+Icon=view-task
+Categories=Utility;Qt;KDE;
+Keywords=todo;tasks;timer;planner;
+StartupNotify=false
+X-KDE-StartupNotify=false
